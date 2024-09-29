@@ -1,0 +1,118 @@
+/*AGUILAR RECIO JESUS OCTAVIO*/
+body{
+    /*border: 1px solid red;*/
+    background: #fff;
+    font-family: sans-serif; 
+    margin: 0px auto;
+    max-width: 1250px;
+}
+footer article{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px;
+    vertical-align: top;
+    width: 18.1%;
+}
+footer article hr{
+    color: gray;
+}
+header article nav{
+    margin-top: 60px;
+    margin-left: -30px;
+}
+header article nav ul li{
+    color: black;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: 19px;    
+}
+header article img{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+header hr{
+    border-style: dashed;
+    color: gray;
+    margin-top: -100px;
+}
+#artDer img{
+    right: -1080px;
+    top: -211px;
+    position: relative;
+    margin-top: 10px;
+}
+#cincoYears{
+    left: 640px;
+    top: -85px;
+    position: relative;
+    width: 12%;
+}
+#logoBuy{
+    left: 800px;
+    top: -130px;
+    position: relative;
+}
+#logoGo{
+    left: 800px;
+    top: -200px;
+    position: relative;
+}
+#imgBike{
+    margin-right: 50px;
+    float: right;
+    margin-top: -530px;
+}
+#secArtIzq1{
+    display: inline-block;
+    margin-left: 10px;
+    width: 54%;
+    vertical-align: top;
+}
+#secArtIzq1Img img{
+    display: inline-block;
+    width: 43%;
+    vertical-align: top;
+}
+#sec02{
+    margin-left: 10px;
+    margin-top: -25px;
+    font-size: 1.1em;
+}
+#sec02 img{
+    padding: 3px;
+    vertical-align: middle;
+}
+#imgVideo1 {
+    margin-left: 30px;
+}
+#secArtIzq1 hr{
+    border-style: dashed;
+    color: gray;
+}
+#secArtIzq1 p{
+    margin-top: 30px;
+}
+.colorGris{
+    color: rgb(126, 122, 122);
+}
+.colorGrisClaro{
+    color: rgb(173, 168, 168);
+}
+.colorNegro {
+    color: rgb(19, 19, 19);
+}
+.colorVerde{
+    color: rgb(115, 243, 61);
+}
+.letraChica{
+    font-size: 1.2em;
+}
+.letraGrande{
+    font-size: 6.4em;
+}
+.letraMediana{
+    font-size: 1.3em;
+}
+.nito{
+    font-weight: bold;
+}
