@@ -1,0 +1,121 @@
+/*AGUILAR RECIO JESUS OCTAVIO*/
+body{
+    background: lightgray;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 764px;
+}
+.button01{
+    background: rgb(27, 26, 29);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    width: 18%;
+}
+.button02{
+    background: rgb(75, 94, 214);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 1%;
+}
+.contenedor{
+    display: grid;
+    grid-template:
+    "header" 60px
+    "main" 200px
+    "opciones"
+    "footer";
+}
+.footer{
+    background: black;
+    color: white;
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+.fo01art05{
+    margin-top: 40px;
+}
+.footer img{
+    width: 25%;
+}
+.header{
+    background: black;
+    grid-area: header;
+    padding: 10px 0px;   
+}
+.header input{
+    margin-left: 10px;
+}
+.header img{
+    margin-left: 50px;
+    width: 40px;
+    vertical-align: middle;
+}
+.header .span02{
+    margin-left: 250px;
+}
+.letraAzul{
+    color: rgb(70, 67, 235);
+}
+.letrablanca{
+    color: white;
+}
+.letraChiquita{
+    color: rgb(223, 213, 213);
+    font-size: 0.8em;
+}
+.letraGrande{
+    font-size: 45px;
+}
+.nito{
+    font-weight: bold;
+}
+.main{
+    background: rgb(218, 219, 241);
+    grid-area: main;
+    text-align: center;
+    padding-top: 50px;
+}
+.main article input{
+    height: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 60%;
+}
+.opciones{
+    background: rgb(255, 255, 255);
+    font-size: 0.7em;
+    grid-area: opciones;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 80px ;
+}
+.opciones img{
+    vertical-align: top;
+    width: 15%;
+}
+.op1 article{
+    display: inline-block;
+}
+.op2 article{
+    display: inline-block;
+}
+.op3 article{
+    display: inline-block;
+}
+.op4 article{
+    display: inline-block;
+}
+.op5 article{
+    display: inline-block;
+}
+.op6 article{
+    display: inline-block;
+}
