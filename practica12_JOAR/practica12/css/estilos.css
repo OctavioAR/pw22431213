@@ -1,0 +1,210 @@
+/*AGUILAR RECIO JESUS OCTAVIO*/
+body{
+    font-family: sans-serif;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+.colorDistinto{
+    background:  #f3f2fb;
+}
+.colorDistinto2{
+    background: #f6f6ea;
+}
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+.footer{
+    background:#11284c;
+    grid-area: footer;
+    margin-top: 100px;
+}
+.fot1{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.fot1 img{
+    width: 50px;
+}
+.fot2{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    margin-top: 40px;
+}
+.fot2 ul{
+    margin-left: -15px;
+}
+.fot2 ul li{
+    padding: 11px;
+    margin-left: -14px;
+}
+.fot3{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    margin-top: -50px;
+}
+.fot3 img{
+    width: 300px;
+}
+.footer-contenido span{
+    margin-left: 25px;
+}
+.footer-contenido ul{
+    list-style: none;
+}
+.header{
+    background:  #f6f6ea;
+    display: flex;
+    grid-area: header;
+    justify-content: space-around;
+    align-items: center;
+}
+.header input{
+    background: #3a1fd4;
+    border-radius: 5px;
+    border-color: #3a1fd4;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    width: 220px
+}
+.header img{
+    width: 40px;
+}
+.header ul{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.header ul li{
+    color: #3a1fd4;
+    font-size: 14px;
+    margin: 10px;
+}
+.info{
+    border: 2px solid gray;
+    padding: 10px;
+}
+.info2{
+    align-items: center;
+    /*background: #f6f6ea;*/
+    position: relative;   
+    width: 200px; 
+    padding: 10px; 
+    display: flex;
+    flex-flow: column wrap;
+}
+.info2 article img{
+   margin-top: 100px;
+   width: 100%;
+   align-self: flex-end;
+}
+.imgSola img{
+    width: 60px;
+    margin-left: 900px;
+    position: relative;
+    top: -80px;
+}
+.letraAmarilla{
+    color: yellow;
+}
+.letraAzul{
+    color: blue;
+}
+.letraBlanca{
+    color: white;
+}
+.letraChica{
+    font-size: 12px;
+}
+.letraMarino{
+    color: #758298;
+    margin-top: 30px;
+}
+.sidebar{
+    align-items: center;
+    background: white;
+    color: gray;
+    display: flex;
+    flex-flow: column wrap;
+    grid-area: sidebar;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+.sidebar article{
+    background: #f3f2fb;
+    padding: 20px;
+}
+.sidebar article input{
+    background: #3a1fd2;
+    border: #3a1fd2;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    width: 200px
+}
+.sidebar article span{
+    color: black;
+    font-size: 24px;
+}
+.sidebar input[type="search"]{
+    margin-left: -10px; 
+    margin-top: -10px;
+    padding: 7px;
+    width: 240px;
+}
+.sidebar .span1{
+    margin-left: -140px;
+}
+.sidebar ul{
+    display: flex;
+    flex-flow: column wrap;
+    list-style: none;
+    margin-left: -200px;
+}
+.sidebar ul li{
+    margin: 10px;
+}
+.nito{
+    font-weight: bold;
+}
+.main{
+    background: white;
+    grid-area: main;
+    margin-top: 80px;
+}
+.main2{
+    margin-top: 50px;
+}
+.main-info{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+}
+.main-info2{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+}
+.main-titulo{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.main-titulo .letraChica{
+    border-bottom: 1px solid blue;
+}
+.mtitulo{
+    font-size: 30px;
+}
