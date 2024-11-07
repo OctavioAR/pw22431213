@@ -1,0 +1,85 @@
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 0px auto;
+}
+.footer {
+  background-color: black;
+  color: white;
+  height: 250px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer article {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer img {
+  width: 40px;
+}
+.copy-info {
+  align-self: flex-end;
+}
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header img {
+  width: 40px;
+  vertical-align: middle;
+}
+.header input[type="submit"] {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.header input[type="button"] {
+  background-color: rgb(75, 95, 213);
+  color: white;
+  border: 1px solid rgb(75, 95, 213);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.help {
+  background-color: rgb(218, 219, 241);
+  font-size: 2.5em;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.help input {
+  font-size: 0.5em;
+  width: 400px;
+  height: 50px;
+}
+.main {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+.main-info {
+  display: flex;
+  width: 350px;
+}
+.main img {
+  width: 50px;
+  margin-right: 10px;
+}
+.main-titulo {
+  font-weight: bold;
+}
+.main-link {
+  color: rgb(162, 156, 231);
+}
