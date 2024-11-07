@@ -1,0 +1,27 @@
+.contenedor{
+    background: khaki;
+    border: 4px solid black;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row nowrap;
+    width: 300px;
+}
+.elemento{
+    background: blue;
+    border: 1px solid black;
+    color: white;
+    width: 100px;
+}
+.b1{
+    order: 2;
+}
+.b2{
+    order: 1;
+}
+.b3{
+    order: 4;
+}
+.b4{
+    order: 3;
+}
