@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    padding: 20px;
+}
+button{
+    background: blue;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+img{
+    margin: 10px;
+    width: 50px;
+}
+.extra{
+    background: gray;
+    margin-top: 20px;
+    padding: 10px;
+}
+.foto_cambio{
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+}
+.principal{
+    background: gray;
+    margin-top: 1dvi;
+    padding: 10px;
+}
