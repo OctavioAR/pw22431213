@@ -1,0 +1,80 @@
+body{
+    font-size: 16px; /*Unidad de medida 1em*/
+    margin: 0px auto;
+    max-width: 1024px;
+    --color-findo-header: #fff;
+}
+footer{
+    background: black;
+    margin-top: 15px;
+}
+footer article{
+    color: white;
+    height: 50px;
+    display: inline-block;
+    padding: 30px;
+    width: 32.8%;
+}
+header{
+    background: var(--color-findo-header);
+}
+header nav{
+    background: #026dc6;
+    margin: 0px auto;
+    border-radius: 5px;
+    padding: 2px 0px;
+    width: 99%;
+}
+header nav form{
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+header nav form input{
+    border-radius: 5px;
+}
+header nav form input[type="submit"]{
+    background: green;
+    border: 1px solid green;
+    color: white;
+    
+}
+header nav ul li{
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+#logo1{
+    margin-top: -150px;
+}
+#seccion01{
+    margin-top: 15px;
+}
+#seccion01 article{
+    text-align: center;
+}
+#seccion01 article img{
+    width: 98%;
+    border: 5px solid rgba(150,150,150,0.5);
+}
+#seccion02 article{/*# paras las secciones y imagenes*/
+    width: 32.8%;
+    vertical-align: top;
+    display: inline-block;
+}
+#seccion02 article input[type="submit"]{
+    background: white;
+    padding: 5px 15px;
+    color: blue;
+    border-radius: 5px;
+    margin-left: 35%;
+}
+.nito{ /*punto para las clases*/
+    font-weight: bold; /*negitas*/
+}
+.unaSeccion{
+    font-size: 4.5em; /*4.5 X 30*/
+}
+.otraSeccion{
+    font-size: 4.5em;
+}
